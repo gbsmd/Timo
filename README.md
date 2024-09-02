@@ -46,7 +46,7 @@ TIMO后台管理系统，基于SpringBoot2.0 + Spring Data Jpa + Thymeleaf + Shi
 
 - ##### 运行项目
 
-  - 通过Java应用方式运行admin模块下的com.linln.BootApplication.java文件
+  - 通过Java应用方式运行app模块下的com.gbsmd.BootApplication.java文件
   - 数据库配置：数据库名称timo   用户root    密码root
   - 访问地址：http://localhost:8080/
   - 默认帐号密码：admin/123456
@@ -54,7 +54,7 @@ TIMO后台管理系统，基于SpringBoot2.0 + Spring Data Jpa + Thymeleaf + Shi
 #### 使用说明
 
 1. 使用文档：sdoc/使用文档.docx
-2. 开发手册：[TIMO开发文档.在线](http://www.linln.cn/docs)
+2. 开发手册：原项目参考 [TIMO开发文档.在线](http://www.linln.cn/docs)
 3. SQL文件：sdoc/timo.sql（经常忘记同步！）
 
 #### 更新记录

@@ -9,7 +9,7 @@
     <name>公共模块</name>
 
     <parent>
-        <groupId>com.linln</groupId>
+        <groupId>com.gbsmd</groupId>
         <artifactId>timo</artifactId>
         <version>2.0.3</version>
     </parent>

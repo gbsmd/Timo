@@ -10,7 +10,7 @@
 
     <parent>
         <artifactId>timo</artifactId>
-        <groupId>com.linln</groupId>
+        <groupId>com.gbsmd</groupId>
         <version>2.0.3</version>
     </parent>
 

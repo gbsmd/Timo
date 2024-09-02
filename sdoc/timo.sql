@@ -33,16 +33,16 @@ CREATE TABLE IF NOT EXISTS `sys_action_log` (
 -- 正在导出表  timo.sys_action_log 的数据：~10 rows (大约)
 /*!40000 ALTER TABLE `sys_action_log` DISABLE KEYS */;
 INSERT INTO `sys_action_log` (`id`, `name`, `type`, `ipaddr`, `clazz`, `method`, `model`, `record_id`, `message`, `create_date`, `oper_name`, `oper_by`) VALUES
-	(1, '用户登录', 2, '127.0.0.1', 'com.linln.admin.system.controller.LoginController', 'login', NULL, NULL, '后台登录成功', '2019-10-31 15:20:29', '超级管理员', 1),
-	(2, '用户登录', 2, '127.0.0.1', 'com.linln.admin.system.controller.LoginController', 'login', NULL, NULL, '后台登录成功', '2019-10-31 17:51:54', '超级管理员', 1),
-	(3, '用户管理', 1, '127.0.0.1', 'com.linln.admin.system.controller.UserController', 'save', 'sys_user', 1, '更新用户成功：admin', '2019-10-31 18:04:23', '超级管理员', 1),
-	(4, '用户登录', 2, '127.0.0.1', 'com.linln.admin.system.controller.LoginController', 'login', NULL, NULL, '后台登录失败：[admin]用户名或密码错误', '2019-11-01 15:36:05', 'admin', NULL),
-	(5, '用户登录', 2, '127.0.0.1', 'com.linln.admin.system.controller.LoginController', 'login', NULL, NULL, '后台登录失败：[admin]用户名或密码错误', '2019-11-01 15:36:16', 'admin', NULL),
-	(6, '用户登录', 2, '127.0.0.1', 'com.linln.admin.system.controller.LoginController', 'login', NULL, NULL, '后台登录成功', '2019-11-01 15:36:37', '超级管理员', 1),
-	(7, '用户登录', 2, '127.0.0.1', 'com.linln.admin.system.controller.LoginController', 'login', NULL, NULL, '后台登录成功', '2019-11-06 19:51:41', '超级管理员', 1),
-	(8, '字典管理', 1, '127.0.0.1', 'com.linln.admin.system.controller.DictController', 'save', 'sys_dict', 4, '更新字典：菜单类型', '2019-11-06 20:08:46', '超级管理员', 1),
-	(9, '用户密码', 1, '127.0.0.1', 'com.linln.admin.system.controller.UserController', 'editPassword', 'sys_user', 1, '修改用户密码成功admin', '2019-11-06 20:09:17', '超级管理员', 1),
-	(10, '用户密码', 1, '127.0.0.1', 'com.linln.admin.system.controller.UserController', 'editPassword', 'sys_user', 2, '修改用户密码成功linln', '2019-11-06 20:09:17', '超级管理员', 1);
+	(1, '用户登录', 2, '127.0.0.1', 'controller.com.gbsmd.app.system.LoginController', 'login', NULL, NULL, '后台登录成功', '2019-10-31 15:20:29', '超级管理员', 1),
+	(2, '用户登录', 2, '127.0.0.1', 'controller.com.gbsmd.app.system.LoginController', 'login', NULL, NULL, '后台登录成功', '2019-10-31 17:51:54', '超级管理员', 1),
+	(3, '用户管理', 1, '127.0.0.1', 'controller.com.gbsmd.app.system.UserController', 'save', 'sys_user', 1, '更新用户成功：admin', '2019-10-31 18:04:23', '超级管理员', 1),
+	(4, '用户登录', 2, '127.0.0.1', 'controller.com.gbsmd.app.system.LoginController', 'login', NULL, NULL, '后台登录失败：[admin]用户名或密码错误', '2019-11-01 15:36:05', 'admin', NULL),
+	(5, '用户登录', 2, '127.0.0.1', 'controller.com.gbsmd.app.system.LoginController', 'login', NULL, NULL, '后台登录失败：[admin]用户名或密码错误', '2019-11-01 15:36:16', 'admin', NULL),
+	(6, '用户登录', 2, '127.0.0.1', 'controller.com.gbsmd.app.system.LoginController', 'login', NULL, NULL, '后台登录成功', '2019-11-01 15:36:37', '超级管理员', 1),
+	(7, '用户登录', 2, '127.0.0.1', 'controller.com.gbsmd.app.system.LoginController', 'login', NULL, NULL, '后台登录成功', '2019-11-06 19:51:41', '超级管理员', 1),
+	(8, '字典管理', 1, '127.0.0.1', 'controller.com.gbsmd.app.system.DictController', 'save', 'sys_dict', 4, '更新字典：菜单类型', '2019-11-06 20:08:46', '超级管理员', 1),
+	(9, '用户密码', 1, '127.0.0.1', 'controller.com.gbsmd.app.system.UserController', 'editPassword', 'sys_user', 1, '修改用户密码成功admin', '2019-11-06 20:09:17', '超级管理员', 1),
+	(10, '用户密码', 1, '127.0.0.1', 'controller.com.gbsmd.app.system.UserController', 'editPassword', 'sys_user', 2, '修改用户密码成功linln', '2019-11-06 20:09:17', '超级管理员', 1);
 /*!40000 ALTER TABLE `sys_action_log` ENABLE KEYS */;
 
 -- 导出  表 timo.sys_dept 结构
