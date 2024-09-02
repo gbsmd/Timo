@@ -63,7 +63,7 @@ public class MenuController {
 
         // 获取菜单列表
         Example<Menu> example = Example.of(menu, matcher);
-        Sort sort = new Sort(Sort.Direction.ASC, "sort");
+        Sort sort = Sort.by(Sort.Direction.ASC, "sort");
         List<Menu> list = menuService.getListByExample(example, sort);
 
         // TODO: 2019/2/25 菜单类型处理方案

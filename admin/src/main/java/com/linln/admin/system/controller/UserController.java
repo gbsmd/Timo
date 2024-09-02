@@ -216,7 +216,7 @@ public class UserController {
         // 获取指定用户角色列表
         Set<Role> authRoles = user.getRoles();
         // 获取全部角色列表
-        Sort sort = new Sort(Sort.Direction.ASC, "createDate");
+        Sort sort = Sort.by(Sort.Direction.ASC, "createDate");
         List<Role> list = roleService.getListBySortOk(sort);
 
         model.addAttribute("id", user.getId());

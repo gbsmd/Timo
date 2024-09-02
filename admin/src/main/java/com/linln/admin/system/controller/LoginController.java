@@ -148,7 +148,6 @@ public class LoginController implements ErrorController {
     /**
      * 自定义错误页面
      */
-    @Override
     public String getErrorPath() {
         return "/error";
     }

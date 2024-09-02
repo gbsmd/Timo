@@ -67,7 +67,7 @@ public class DeptServiceImpl implements DeptService {
      */
     @Override
     public List<Dept> getListByPid(Long pid, Long notId){
-        Sort sort = new Sort(Sort.Direction.ASC, "sort");
+        Sort sort = Sort.by(Sort.Direction.ASC, "sort");
         return deptRepository.findByPidAndIdNot(sort, pid, notId);
     }
 

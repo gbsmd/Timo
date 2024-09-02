@@ -17,9 +17,9 @@ spring:
   ## 数据库配置
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/timo?useSSL=false&characterEncoding=utf-8
+    url: jdbc:mysql://192.168.80.120:3316/timo?useSSL=false&characterEncoding=utf-8
     username: root
-    password: root
+    password: 123456
 
   ## jpa配置
   jpa:
@@ -49,3 +49,14 @@ spring:
   ## json配置
   jackson:
     time-zone: Asia/Shanghai
+
+  ## redis配置
+  redis:
+    # 地址
+    host: 192.168.80.120
+    # 端口，默认为6379
+    port: 6379
+    # 数据库索引
+    database: 0
+    # 密码
+    password: 123456

@@ -63,7 +63,7 @@ public class DeptController {
 
         // 获取部门列表
         Example<Dept> example = Example.of(dept, matcher);
-        Sort sort = new Sort(Sort.Direction.ASC, "sort");
+        Sort sort = Sort.by(Sort.Direction.ASC, "sort");
         List<Dept> list = deptService.getListByExample(example, sort);
         return ResultVoUtil.success(list);
     }

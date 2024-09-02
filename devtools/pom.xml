@@ -29,6 +29,12 @@
             <artifactId>shiro</artifactId>
             <version>${project.version}</version>
         </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>org.hibernate.validator</groupId>-->
+<!--            <artifactId>hibernate-validator</artifactId>-->
+<!--            <version>6.0.13.Final</version> &lt;!&ndash; 使用时请检查是否有更新的版本 &ndash;&gt;-->
+<!--        </dependency>-->
     </dependencies>
 
     <!-- 修复部分idea版本无法发布tpl文件到target目录下的问题 -->
